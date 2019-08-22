@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: SYSTEM
+    password: 1
+    url: jdbc:oracle:thin:@127.0.0.1:1521:xe
+    driver-class-name: oracle.jdbc.OracleDriver
+  redis:
+    host: 127.0.0.1
+    port: 6379
